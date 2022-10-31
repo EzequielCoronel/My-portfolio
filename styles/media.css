@@ -1,0 +1,143 @@
+@media (max-width: 600px) {
+    .theme-btn {
+        width: 50px;
+        height: 50px;
+    }
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+    .right-about {
+        padding-top: 2.5rem;
+        grid-template-columns: 1fr;
+    }
+    .left-about {
+        padding-right: 0;
+    }
+    .paragraph {
+        padding-left: 0;
+    }
+    .section {
+        padding: 2rem 2.5rem !important;
+    }
+    .timeline {
+       grid-template-columns: 1fr;
+       padding-bottom: 6rem; 
+    }
+    .portfolios {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .about-me {
+       font-size: 2rem; 
+    }
+    .about-name {
+        font-size: 2.5rem;
+    }
+    .bg-text {
+        font-size: 3rem;
+    } 
+}
+
+@media (max-width: 1432px) {
+    header {
+        padding: 0 !important;
+    }
+    .section {
+        padding: 7rem 11rem;
+    }
+    .contact-content-con {
+        flex-direction: column;
+    }
+    .right-contact {
+        margin-left: 0;
+        margin-top: 2.5rem;
+    }
+    .input-con-2 {
+        flex-direction: column;
+    }
+    .input-con-2 :last-child {
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 1070px) {
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+    .right-about {
+        padding-top: 2.5rem;
+    }
+    .about-me {
+        font-size: 4rem;
+    }
+    .about-name {
+        font-size: 4rem;
+    }
+    .bg-text {
+        font-size: 4.5rem;
+    }
+    .portfolios {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 970px) {
+    .section {
+        padding: 7rem 6rem;
+    }
+    header {
+        padding: 0;
+    }
+    .right-header {
+        padding: 0 !important;
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .name {
+        font-size: 2.5rem !important;
+    }
+    .h-shape {
+        display: none;
+    }
+    .header-content {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .image {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .controll {
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey-5);
+    }
+    .control {
+        margin: .6rem 1rem  !important;
+    }
+}   
+
+@media (max-width: 700px) {
+    .section {
+        padding: 7rem 3rem;
+    }
+    .progress-bars {
+        grid-template-columns: 1fr;
+    }
+    .about-me {
+        font-size: 3rem;
+    }
+    .about-name {
+        font-size: 3rem;
+    }
+    .bg-text {
+        font-size: 4rem;
+    }
+}
